@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Solid - Red</name>
+    <filename>/usr/share/backgrounds/solid/red-l.png</filename>
+    <filename-dark>/usr/share/backgrounds/solid/red-d.png</filename-dark>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+</wallpapers>
