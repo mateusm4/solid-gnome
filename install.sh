@@ -15,9 +15,11 @@ reset="\e[0m"
 
 clear
 
-echo "Solid-GNOME Backgrounds 1.0.0 Installer"
+clear
+
+echo "Solid-GNOME Backgrounds 1.1.0 Installer"
 echo ""
-echo "Operations:"
+echo "Operations: [ 1 ]"
 echo ""
 echo -e "${bold}Copy${reset} [ 2 folders ]"
 echo "  src/backgrounds/ → /usr/share/backgrounds/solid"/
@@ -27,11 +29,16 @@ echo "Press ENTER to do operations or press CRTL+C to exit."
 
 read
 
+echo $header
+echo ""
+echo "Authenticate:"
+sudo echo -e "${green} > Authenticated!${reset}"
+
 clear
 
-echo "Solid-GNOME Backgrounds 1.0 Installer"
+echo "Solid-GNOME Backgrounds 1.1.0 Installer"
 echo ""
-echo "Operations:"
+echo "Operations: [ 2 ]"
 echo ""
 echo -e "${bold}1) Copy 'src/backgrounds/' to '/usr/share/backgrounds/solid${reset}'"
 sudo cp -r src/backgrounds/ /usr/share/backgrounds/solid/
